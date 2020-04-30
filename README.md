@@ -46,7 +46,7 @@ print(anndata.__version__)
 
 
 ```python
-pathfrom = "gs://fc-3b7827a6-0f63-4b59-a4c6-07851ae38d84/projects/misc/public_data/pbmc3k.h5ad"
+pathfrom = "gs://thatssecret/projects/misc/public_data/pbmc3k.h5ad"
 pathto = "/home/jupyter-user/data/public/PBMC/pbmc3k_2.h5ad"
 filename =  "pbmc3k.h5ad"
 ```
@@ -530,7 +530,7 @@ adata_68K
 
 ```python
 datahome = "home/jupyter-user/data/public/PBMC/h5data/adata_68K_prescvi.h5ad"
-pushto = "gs://fc-3b7827a6-0f63-4b59-a4c6-07851ae38d84/projects/misc/public_data/adata_68K_prescvi.h5ad"
+pushto = "gs://thatssecret/projects/misc/public_data/adata_68K_prescvi.h5ad"
 
 os.system("gsutil cp " + datahome + " " + pushto)
 ```
